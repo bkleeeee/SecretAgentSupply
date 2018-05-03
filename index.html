@@ -3,65 +3,78 @@
   <head>
     <meta charset="utf-8">
     <title>Secret Agent Supply Inc.</title>
-    <link src="./resources/css/reset.css" type="text/css" rel="stylesheet" >
-    <link src="./resources/css/style.css" type="text/css" rel="stylesheet" >
+    <link href="./resources/css/reset.css" type="text/css" rel="stylesheet" >
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet" >
   </head>
   <body>
     <header>
-      <img>
-      <p>SECRET AGENT SUPPLY INC.</p>
+      <div class="container">
+        <img src="./resources/images/logo.png" alt="binocular logo">
+        <p>SECRET AGENT SUPPLY INC.</p>
+      </div>
     </header>
 
     <!--beginning of main article-->
     <article>
       <section class="welcome">
-        <div>
-          <p>NEW ARRIVAL</p>
-          <h1>SPORT BIKES AND MOTORCYCLES</h1>
+        <div class="container">
+          <div class="arrival">
+            <p>NEW ARRIVAL</p>
+            <h1>SPORT BIKES AND MOTORCYCLES</h1>
+          </div>
         </div>
       </section>
 
       <!--website navigation-->
-      <nav>
-        <ul>
-          <li>Eyewear</li>
-          <li>Apparel</li>
-          <li>Gadgets</li>
-          <li>Vehicles</li>
-          <li>Classes</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+      <div class="navigation">
+        <nav class="container">
+          <ul class="notmenu">
+            <li>Eyewear</li>
+            <li>Apparel</li>
+            <li>Gadgets</li>
+            <li>Vehicles</li>
+            <li>Classes</li>
+            <li>Contact</li>
+          </ul>
+          <ul class="menu">
+            <li>Menu</li>
+          </ul>
+        </nav>
+      </div>
 
       <!--things to click on-->
-      <section>
-        <div class="imagetile">
-          <div class="pen">
-            <img>
-            <p>Exploding Pen</p>
-          </div>
+      <section class="items">
+        <div class="container">
+          <div class="imagetile">
+            <div class="pen spyimage">
+              <img src="./resources/images/pen.png" alt="exploding pen">
+              <p>Exploding Pen</p>
+            </div>
 
-          <div class="watch">
-            <img>
-            <p>Cellular Watch</p>
-          </div>
+            <div class="watch spyimage">
+              <img src="./resources/images/watch.png" alt="cellular watch">
+              <p>Cellular Watch</p>
+            </div>
 
-          <div class="glasses">
-            <img>
-            <p>Thermal Glasses</p>
+            <div class="glasses spyimage">
+              <img src="./resources/images/glasses.png" alt="thermal glasses">
+              <p>Thermal Glasses</p>
+            </div>
           </div>
         </div>
 
         <!--contact information and location-->
         <address>
-          <div>
-            <p>Location</p>
-            <h3>-47.346436, 84.32354</h3>
-          </div>
+          <div class="container">
+            <div class="info">
+              <p>Location</p>
+              <h3>-47.346436, 84.32354</h3>
+            </div>
 
-          <div>
-            <p>Hours</p>
-            <h3>0800 - 1800</h3>
+            <div class="info">
+              <p>Hours</p>
+              <h3>0800 - 1800</h3>
+            </div>
           </div>
         </address>
 
@@ -72,7 +85,9 @@
     <!--end of article and start of footer-->
 
     <footer>
-      <p>Copyright Secret Agent Supply Inc.</p>
+      <div class="container">
+        <p>Copyright Secret Agent Supply Inc.</p>
+      </div>
     </footer>
 
   </body>
